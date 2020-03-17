@@ -3,6 +3,7 @@ package kr.co.tjoeun.a20200317_androidfunction01;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -21,6 +22,9 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+//                메인화면으로 "복귀"
+//                복귀 : 지금 보는 화면을 종료
+                finish();
             }
         });
     }
